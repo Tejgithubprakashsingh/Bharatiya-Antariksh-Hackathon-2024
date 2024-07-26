@@ -1,0 +1,42 @@
+Process flow diagram or Use-case diagram
+Add a flow diagram or a use case diagram or an architecture diagram
+
+Process Flow Diagram for Crater and Boulder Detection
+
+Opens in a new window
+www.frevvo.com
+process flow diagram
+
+Diagram Components:
+Input: OHRC images
+Preprocessing: Image cleaning, noise reduction, enhancement
+Feature Extraction: Extraction of relevant image features (e.g., shape, texture, color)
+Model Training: Training of machine learning models (e.g., CNN, SVM) on labeled image data
+Object Detection: Identification and localization of craters and boulders in new images
+Post-processing: Refinement of detected objects (e.g., merging overlapping detections, removing false positives)
+Output: Detected craters and boulders with associated metadata (location, size, shape)
+Additional Considerations:
+Feedback Loop: Include a feedback loop for model retraining with new data.
+Error Handling: Incorporate error handling mechanisms for unexpected image conditions.
+Visualization: Add a block for visualization of detected objects on original images.
+Use Case Diagram for Crater and Boulder Detection System
+Opens in a new window
+www.lucidchart.com
+use case diagram
+
+Actors:
+System
+User
+Use Cases:
+Acquire Image: System obtains OHRC images.
+Preprocess Image: System prepares images for analysis.
+Train Model: System trains machine learning models.
+Detect Objects: System identifies and locates craters and boulders.
+Post-process Results: System refines detection results.
+Visualize Results: System displays detected objects on original images.
+Export Data: System generates output data in desired format.
+Relationships:
+User can trigger image acquisition and data export.
+System performs all other use cases.
+Choose the diagram that best suits your needs based on the level of detail and target audience.
+
