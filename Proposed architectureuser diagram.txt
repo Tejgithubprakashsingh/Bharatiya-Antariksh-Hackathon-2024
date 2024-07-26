@@ -1,0 +1,35 @@
+Proposed architecture/user diagram
+Proposed Architecture for Crater and Boulder Detection
+Overview
+The proposed system consists of several interconnected modules:
+
+Image Acquisition: Receives high-resolution images from the OHRC.
+Preprocessing: Prepares images for analysis by applying noise reduction, contrast enhancement, and normalization.
+Feature Extraction: Extracts relevant features from preprocessed images using techniques like SIFT or HOG.
+Model Training: Trains deep learning models (CNN, Faster R-CNN, YOLO) on a labeled dataset to classify and localize craters and boulders.
+Object Detection: Applies the trained model to input images to detect and classify objects as craters or boulders.
+Post-processing: Refines detection results by removing false positives and merging overlapping detections.
+Visualization and Output: Displays detected craters and boulders on the original image and provides relevant metadata.
+System Diagram
+[Image of a system diagram showing the following components and their connections:
+
+Image Acquisition
+Preprocessing
+Feature Extraction
+Model Training
+Object Detection
+Post-processing
+Visualization and Output]
+User Interface
+The user interface should provide the following functionalities:
+
+Image Upload: Allow users to upload OHRC images for analysis.
+Parameter Tuning: Enable users to adjust model parameters (e.g., confidence threshold, image size) for fine-tuning performance.
+Visualization: Display original images with superimposed detections (craters and boulders highlighted).
+Data Export: Allow users to export detected objects as a data file (e.g., CSV, GeoJSON) for further analysis.
+Model Management: Provide options to manage and deploy different trained models.
+Additional Considerations
+Real-time Processing: For time-critical applications, consider optimizing the system for real-time performance.
+Cloud Deployment: Deploy the system on a cloud platform for scalability and accessibility.
+Integration with GIS: Integrate the system with Geographic Information Systems (GIS) for spatial analysis and visualization.
+Model Explainability: Incorporate techniques to explain the model's decision-making process for transparency and trust.
