@@ -1,0 +1,20 @@
+Tools and Technology Used (50 words)
+
+Project Overview:
+The goal is to create an AI/ML model capable of automatically detecting craters and boulders of all shapes and sizes from OHRC data.
+The model should attach relevant information to the detected craters, preferably in the form of a shapefile containing the boundary of the craters/boulders.
+Objectives:
+Automatic Detection: Design a model that can identify craters and boulders in OHRC images regardless of their shape, size, and illumination conditions.
+Quantification: The model should quantify the selenographic position and diameter of the detected craters/boulders.
+Expected Outcomes:
+A polygonal shapefile or shape-size information of craters/boulders with their locations on the given OHRC images.
+Dataset:
+OHRC datasets publicly available in PDS4 format on Chandrayaan Map Browse would be suitable for training and testing.
+Tools/Technologies:
+Programming Languages: Python, C, C++, or other relevant languages.
+Techniques: Image processing techniques for crater detection, AI/ML models for crater/boulder detection.
+Steps to Achieve Objectives:
+Selenoreference: Use auxiliary information provided with the OHRC images to selenoreference them with appropriate projection information.
+Data Preparation: Prepare training and testing data.
+Model Training: Train the AI/ML model using the datasets.
+Evaluation Metrics: Define accuracy metrics based on precision and relevance.
